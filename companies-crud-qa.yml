@@ -1,6 +1,7 @@
 db:
-  username: debuggeandoideas-qa
+  username: debuggeandoideas
   maximum-pool-size: 5
   connection-timeout: 20000
-  url: jdbc:postgresql://localhost:5234/companies-qa
-  password: 3R834FJEWJJH
+  # url: jdbc:postgresql://localhost:5432/companies-qa <- for local
+  url: jdbc:postgresql://db-companies:5432/companies-qa
+  password: udemy
