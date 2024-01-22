@@ -2,5 +2,6 @@ db:
   username: debuggeandoideas
   maximum-pool-size: 5
   connection-timeout: 20000
-  jdbc:postgresql://localhost:5432/companies-qa
+  jdbc: postgresql://localhost:5432/companies-qa
   password: udemy
+  driverClassName: org.postgresql.Driver
